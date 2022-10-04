@@ -212,17 +212,30 @@ body.active {
 /*------------------------------------compound-----------------------------------------------*/
 .compound {
     padding: 100px 0 165px 0;
-    background-image: linear-gradient(0deg, #ffffff, #da82ee);
+    background-image: linear-gradient(0deg, #ffffff, #e9bbf3);
 }
 
 .compound__container {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .compound__ingredients-first {
     text-align: center;
+}
+
+.compound__product-img img{
+    max-width: 250px;
+}
+
+
+.ingredients-first__img, .ingredients-second__img{
+    transition: ease-in 0.3s;
+}
+
+.ingredients-first__img:hover, .ingredients-second__img:hover{
+    transform: scale(1.2);
 }
 
 .compound__product {
@@ -448,7 +461,6 @@ body.active {
 
 .form__input-name {
     padding: 15px 15px;
-    border: 1px solid #5012E0;
     border-radius: 5px;
     outline: none;
     margin: 0 0 20px 0;
@@ -498,7 +510,6 @@ body.active {
 
 .form__input-tel {
     padding: 15px 15px;
-    border: 1px solid #5012E0;
     border-radius: 5px;
     outline: none;
 }

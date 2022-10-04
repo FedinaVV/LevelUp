@@ -124,7 +124,7 @@
 
     .compound__product-img img {
         display: block;
-        max-width: 100%;
+        max-width: 200px;
         height: auto;
     }
 
@@ -180,6 +180,14 @@
     .compound__ingredients-second {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .ingredients-first__img {
+        width: 110px;
+    }
+
+    .ingredients-second__img {
+        width: 110px;
     }
 
     .about-product__img img {
@@ -240,13 +248,6 @@
         width: 160px;
     }
 
-    .ingredients-first__img {
-        width: 110px;
-    }
-
-    .ingredients-second__img {
-        width: 110px;
-    }
 }
 
 @media screen and (max-width: 320px) {
