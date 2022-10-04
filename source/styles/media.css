@@ -204,6 +204,10 @@
         height: 200px;
     }
 
+    .form-order__form{
+        padding: 70px 40px;
+    }
+
     .form-order__img {
         text-align: -webkit-center;
     }
