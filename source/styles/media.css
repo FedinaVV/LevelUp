@@ -130,6 +130,18 @@
 
     .promo-product__about-product {
         flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .about-product__descriptionAndOrder{
+        margin: 0;
+        border: none;
+    }
+
+    .characteristic__item{
+        font-size: 20px;
+        padding: 60px 35px;
     }
 
     .footer__container{
@@ -141,7 +153,7 @@
     }
 
     .footer__logo{
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
 
     .menu__content-list {
@@ -163,6 +175,20 @@
 
     .compound {
         padding: 100px 0 50px 0;
+    }
+
+    .characteristic__list {
+        flex-direction: column;
+        margin: 50px 0 20px 0;
+    }
+
+    .characteristic__item {
+        padding: 40px;
+        margin: 0 0 17px 0 !important;
+    }
+
+    .characteristic__item img{
+        vertical-align: bottom;
     }
 
     .form-order__price-form {
@@ -217,7 +243,7 @@
     }
 
     .characteristic__item {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .product__img img {
@@ -248,14 +274,7 @@
         padding: 50px 0 10px 0;
     }
 
-    .characteristic__list {
-        flex-direction: column;
-        margin: 50px 0 20px 0;
-    }
 
-    .characteristic__item {
-        margin: 0 0 17px 0 !important;
-    }
 
 }
 
@@ -276,7 +295,7 @@
 
 @media screen and (max-width: 320px) {
     .comments {
-        padding: 50px 0 100px 0;
+        padding: 50px 0 50px 0;
     }
 
     .form__input-name:focus + .form__help {
