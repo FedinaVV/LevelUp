@@ -534,6 +534,31 @@ input[type='number'] {
 
 /*----------------------------form-order------------------------------*/
 
+/*--------------------footer------------------------*/
+
+.footer__container {
+    display: flex;
+    min-height: 120px;
+    align-items: center;
+}
+
+.footer__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+}
+
+.footer__menu {
+    margin: 0 0 0 160px;
+}
+
+.menu__content-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*--------------------footer------------------------*/
+
+
 /*----------------------------------------------------------------to top--------------------------------------------------------------*/
 .to-top {
     position: fixed;

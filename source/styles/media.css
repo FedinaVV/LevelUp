@@ -131,6 +131,26 @@
     .promo-product__about-product {
         flex-direction: column;
     }
+
+    .footer__container{
+        flex-direction: column;
+    }
+
+    .footer__menu{
+        margin: 0;
+    }
+
+    .footer__logo{
+        margin-bottom: 20px;
+    }
+
+    .menu__content-list {
+        flex-direction: column;
+    }
+
+    .menu__item.menu__item-footer{
+        margin-bottom: 10px!important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -204,7 +224,7 @@
         height: 200px;
     }
 
-    .form-order__form{
+    .form-order__form {
         padding: 70px 40px;
     }
 
@@ -258,6 +278,7 @@
     .comments {
         padding: 50px 0 100px 0;
     }
+
     .form__input-name:focus + .form__help {
         right: 45px;
     }
