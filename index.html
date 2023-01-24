@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="source/styles/styles.css">
     <link rel="stylesheet" href="source/styles/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-          rel="stylesheet">
     <title>LevelUp</title>
 </head>
 <body>
@@ -37,27 +33,25 @@
             <div class="promo__container">
                 <div class="promo__heading">“LevelUp”. Продукт для повышения потенции</div>
                 <div class="promo__product product">
-                    <div class="product__img">
-                        <img src="source/img/prod.png" alt="product">
-                    </div>
                     <div class="product__description">
                         <ul class="product__description-list">
-                            <li class="product__description-item">Этот продукт помогает отсрочить быстрый финиш в
+                            <li class="product__description-item">Помогает отсрочить быстрый финиш в
                                 постели
                             </li>
                             <li class="product__description-item">Активизирует выработку тестостерона</li>
                             <li class="product__description-item">Повышает либидо</li>
                         </ul>
-
                         <div class="btn-wrapper-order">
                             <a href="#form" class="btn-order">Заказать</a>
                         </div>
-
+                    </div>
+                    <div class="product__img">
+                        <img src="source/img/prod.png" alt="product">
                     </div>
                 </div>
-                <div class="promo__btn-video">
+                <!--<div class="promo__btn-video">
                     <button id="video-btn" onclick="videoControl()">Остановить видео</button>
-                </div>
+                </div>-->
             </div>
             <div class="promo__video-vbg">
                 <video autoplay muted loop class="promo__video">
@@ -157,19 +151,28 @@
                             consequatur deleniti dolore ducimus ea eos, error harum impedit iure, nemo optio placeat quo
                             sint tempore velit voluptatem.
                         </div>
-                            <a href="#form" class="btn-order">Заказать</a>
+                        <a href="#form" class="btn-order">Заказать</a>
                     </div>
                 </div>
-                <div class="promo-product__characteristic characteristic">
-                    <ul class="characteristic__list">
-                        <li class="characteristic__item"><img src="./source/img/checkmark.svg" alt="checkmark">Надежный</li>
-                        <li class="characteristic__item"><img src="./source/img/checkmark.svg" alt="checkmark">Качественный</li>
-                        <li class="characteristic__item"><img src="./source/img/checkmark.svg" alt="checkmark">Дешевый</li>
-                    </ul>
-                </div>
+
             </div>
+
+            <div class="product__characteristic characteristic">
+                <ul class="characteristic__list">
+                    <li class="characteristic__item characteristic__item-one"><img src="./source/img/checkmark-w.svg"
+                                                                                   alt="checkmark">Надежный
+                    </li>
+                    <li class="characteristic__item characteristic__item-two"><img src="./source/img/checkmark-w.svg"
+                                                                                   alt="checkmark">Качественный
+                    </li>
+                    <li class="characteristic__item characteristic__item-three"><img src="./source/img/checkmark-w.svg"
+                                                                                     alt="checkmark">Дешевый
+                    </li>
+                </ul>
+            </div>
+
         </div>
-        <div class="form-order" id="form">
+        <div class="form-order">
             <div class="form-order__container">
                 <div class="form-order__heading">“LevelUp”. Продукт для повышения потенции</div>
                 <div class="form-order__timer" id="timer">30:00</div>
@@ -184,8 +187,7 @@
                             <div class="price__new">7500 ₽</div>
                         </div>
                     </div>
-
-                    <div class="form-order__form form">
+                    <div id="form" class="form-order__form form">
                         <div class="form__heading">Форма заказа</div>
                         <input type="text" class="form__input-name" placeholder="Имя">
                         <div class="form__help">
@@ -200,7 +202,14 @@
                         <div class="btn-wrapper-order">
                             <a href="javascript://" class="btn-order">Заказать</a>
                         </div>
+
+                        <div class="form__item form__item_1"></div>
+                        <div class="form__item form__item_2"></div>
+                        <div class="form__item form__item_3"></div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>

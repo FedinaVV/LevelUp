@@ -5,6 +5,8 @@ $(document).ready(function(){
     });
 });
 
+/*
+
 // Video control (JS)
 let video = document.querySelector('.promo__video');
 
@@ -21,6 +23,8 @@ function videoControl() {
         btn.innerHTML = "Воспроизвести видео";
     }
 }
+*/
+
 
 //Slider (jQuery)
 $(document).ready(function(){

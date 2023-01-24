@@ -39,15 +39,14 @@
 
     .icon-menu::before, .icon-menu::after {
         content: "";
-        background-color: #5012E0;
+        background-color: #ffffff;
         height: 2px;
     }
 
     .icon-menu span {
-        background-color: #5012E0;;
+        background-color: #ffffff;
         height: 2px;
     }
-
 
     .menu__body {
         position: fixed;
@@ -55,8 +54,8 @@
         right: -100%;
         width: 100%;
         height: 100%;
-        background-color: #fff;
-        padding: 90px 15px 30px 15px;
+        background-color: #379bd2;
+        padding: 120px 15px 30px 15px;
         font-size: 20px;
         transition: right 0.3s ease 0s;
         overflow: auto;
@@ -81,7 +80,7 @@
     }
 
     .product__img {
-        margin: 0 0 50px 0;
+        margin: 60px 0 0 0;
         padding: 0 80px;
     }
 
@@ -109,7 +108,6 @@
     .compound__container {
         flex-direction: column;
         align-items: center;
-
     }
 
     .compound__ingredients-first {
@@ -122,37 +120,30 @@
         margin: 50px 0 0 0;
     }
 
-    .compound__product-img img {
-        display: block;
-        max-width: 200px;
-        height: auto;
-    }
-
     .promo-product__about-product {
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
     }
 
-    .about-product__descriptionAndOrder{
+    .about-product__descriptionAndOrder {
         margin: 0;
         border: none;
     }
 
-    .characteristic__item{
+    .characteristic__item {
         font-size: 20px;
-        padding: 60px 35px;
     }
 
-    .footer__container{
+    .footer__container {
         flex-direction: column;
     }
 
-    .footer__menu{
+    .footer__menu {
         margin: 0;
     }
 
-    .footer__logo{
+    .footer__logo {
         margin: 20px 0;
     }
 
@@ -160,12 +151,16 @@
         flex-direction: column;
     }
 
-    .menu__item.menu__item-footer{
-        margin-bottom: 10px!important;
+    .menu__item.menu__item-footer {
+        margin-bottom: 10px !important;
     }
 }
 
 @media screen and (max-width: 768px) {
+
+    .promo__container {
+        padding: 190px 0 100px 0;
+    }
 
     .promo__heading {
         font-size: 24px;
@@ -177,22 +172,20 @@
         padding: 100px 0 50px 0;
     }
 
-    .characteristic__list {
-        flex-direction: column;
-        margin: 50px 0 20px 0;
-    }
-
-    .characteristic__item {
-        padding: 40px;
-        margin: 0 0 17px 0 !important;
-    }
-
-    .characteristic__item img{
-        vertical-align: bottom;
-    }
 
     .form-order__price-form {
-        flex-direction: column;
+        /*flex-direction: column;*/
+        display: block;
+    }
+
+    .form-order__img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-order__form{
+        margin: 0 auto;
+        max-width: 475px;
     }
 
     .form__input-name:focus + .form__help {
@@ -214,6 +207,11 @@
 }
 
 @media screen and (max-width: 585px) {
+
+    .compound__product-img img {
+        width: 150px;
+    }
+
     .compound__ingredients-first {
         flex-wrap: wrap;
         justify-content: center;
@@ -229,43 +227,50 @@
     }
 
     .ingredients-first__img {
-        width: 110px;
+        width: 98px;
     }
 
     .ingredients-second__img {
-        width: 110px;
+        width: 98px;
+    }
+
+    .about-product__img {
+        display: flex;
+        justify-content: center;
     }
 
     .about-product__img img {
         display: block;
-        max-width: 100%;
+        max-width: 70%;
         height: auto;
     }
 
     .characteristic__item {
-        font-size: 18px;
+        font-size: 15px;
+        padding: 30px 0;
     }
 
-    .product__img img {
-        height: 200px;
+    .characteristic__item img {
+        vertical-align: bottom;
     }
 
     .form-order__form {
-        padding: 70px 40px;
+        padding: 70px 30px;
     }
 
-    .form-order__img {
-        text-align: -webkit-center;
+    .form__item{
+        display: none;
     }
 
-    .form-order__img img {
-        height: 200px;
-    }
 }
 
 @media screen and (max-width: 475px) {
     .form__heading {
         font-size: 25px;
+    }
+
+    .form-order__img img {
+        width: 180px;
     }
 }
 
@@ -273,8 +278,6 @@
     .promo-product {
         padding: 50px 0 10px 0;
     }
-
-
 
 }
 
