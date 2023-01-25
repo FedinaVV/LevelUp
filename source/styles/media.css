@@ -248,6 +248,14 @@
         vertical-align: bottom;
     }
 
+    .form__input-name:focus + .form__help {
+        top: 197px;
+    }
+
+    .form__input-tel:focus + .form__help {
+        top: 257px;
+    }
+
     .form-order__form {
         padding: 70px 30px;
     }
