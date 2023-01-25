@@ -96,11 +96,6 @@
         height: auto;
     }
 
-    .promo__btn-video {
-        text-align: left;
-        margin: 50px 0 0 35px;
-    }
-
     .product__description-list {
         padding: 0 30px;
     }
@@ -174,7 +169,6 @@
 
 
     .form-order__price-form {
-        /*flex-direction: column;*/
         display: block;
     }
 

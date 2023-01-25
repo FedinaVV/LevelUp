@@ -5,27 +5,6 @@ $(document).ready(function(){
     });
 });
 
-/*
-
-// Video control (JS)
-let video = document.querySelector('.promo__video');
-
-// Get the button
-let btn = document.getElementById("video-btn");
-
-// Pause and play the video, and change the button text
-function videoControl() {
-    if (video.paused) {
-        video.play();
-        btn.innerHTML = "Остановить видео";
-    } else {
-        video.pause();
-        btn.innerHTML = "Воспроизвести видео";
-    }
-}
-*/
-
-
 //Slider (jQuery)
 $(document).ready(function(){
     $('.slider').slick({

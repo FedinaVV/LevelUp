@@ -173,29 +173,6 @@ body.active {
     opacity: 0.8;
 }
 
-/*
-
-.promo__btn-video {
-    text-align: end;
-}
-
-#video-btn {
-    width: 220px;
-    font-size: 18px;
-    padding: 5px;
-    border: 1px solid #cdc101;
-    background: #000;
-    color: #cdc101;
-    cursor: pointer;
-}
-
-#video-btn:hover {
-    background: #cdc101;
-    color: black;
-}
-
- */
-
 .promo__video {
     position: absolute;
     width: 100%;
